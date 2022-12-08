@@ -1,0 +1,261 @@
+body{
+  font-family: 'Italiana', serif;
+  overflow: hidden;
+  height: 100vh;
+  margin: 0;
+  background-color: black;
+  background-image: url('wallpaperbetter.com_7680x4320.jpg');
+  background-size: contain;
+  
+}
+.header {
+  font-family: 'Lato', sans-serif;
+  background-color: rgba(20, 20, 20, 0.75);
+  position: absolute;
+  z-index: 1;
+  margin-top: 0;
+  display: flex;
+  flex-direction: row;
+  height: 5em;
+  width: 100vw;
+  transition: top 0.8s;
+  -moz-transition: top 0.8s;
+  /* Firefox 4 */
+  -webkit-transition: top 0.8s;
+  /* Safari and Chrome */
+  -o-transition: top 0.8s;
+  -webkit-box-shadow: 0px 17px 26px 26px rgba(20,20,20,0.75);
+  -moz-box-shadow: 0px 17px 26px 26px rgba(20,20,20,0.75);
+  box-shadow: 0px 17px 26px 26px rgba(20,20,20,0.75)
+}
+
+.logoImage {
+  filter: invert(50%) sepia(100%) hue-rotate(16deg) brightness(118%) contrast(119%);
+  height: 100%;
+  margin: auto;
+  
+  cursor: pointer;
+
+}
+
+.navbar {
+  margin: auto;
+  margin-top: 10px;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  width: 70vw;
+  height: 100%;
+  justify-content: flex-end;
+  gap:4vw;
+  padding: 0;
+
+}
+
+.navbarItem {
+  list-style-type: none;
+  cursor: pointer;
+  border-radius: 10vw;
+  text-align: center;
+  color: white;
+  transition: 0.2s;
+}
+
+.navbarItem p {
+  font-size: x-large;
+  font-weight: 500;
+  top: 100%;
+  left: 100%;
+}
+
+.navbarItem:hover {
+  color: yellow;
+  
+  transition: 0.2s;
+  text-shadow: 0 0 25px rgba(255, 255, 0, 1);
+}
+
+.stick-image{
+  background-image: url('pngegg1.png');
+  
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 700px;
+  width: 700px;
+  position: absolute;
+
+  top: 30%;
+  left: -7%;
+  transform: rotate(45deg) !important;
+  
+}
+.beef-image{
+  background-image: url('pngegg.png');
+  
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+  width: 500px;
+  position: absolute;
+
+  top: 50%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+}
+.glass-card{
+  
+  /* From https://css.glass */
+  position: relative;
+  width: 100vw;
+
+  background-color: #050505;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 16px;
+}
+.glass-card-title{
+  filter: invert(50%) sepia(100%) hue-rotate(16deg) brightness(118%) contrast(119%);
+
+  position: absolute;
+  height: 50%;
+  width: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: wheat;
+  text-shadow: 20px 20px 5px rgba(0, 0, 0, 1);
+  box-shadow:inset 0px 0px 50px 50px rgba(0,0,0,0.05);
+  border-radius: 50px;
+  font-size: 12em;
+  
+}
+
+
+.menu-button{
+  height: 80%;
+  box-shadow: inset 0px 0px 10px 10px rgba(0,0,0,0.75), -1px -1px 10px 10px rgba(0,0,0,0.75);
+  -webkit-box-shadow: inset 0px 0px 10px 10px rgba(0,0,0,0.75), -1px -1px 10px 10px rgba(0,0,0,0.75);
+  -moz-box-shadow: inset 0px 0px 10px 10px rgba(0,0,0,0.75), -1px -1px 10px 10px rgba(0,0,0,0.75);
+  text-shadow: 0 0 25px rgba(255, 255, 0, 0.5);
+  border-style: none;
+  border-radius: 10em;
+  background-image: url('solid-concrete-wall-textured-backdrop.jpg');
+  font-family: 'Lato', cursive;
+  color: wheat;
+  font-size: 4em;
+  font-weight: 300;
+  cursor: pointer;
+  transition: 1s;
+  
+}
+.menu-button:hover{
+  transform: translateZ(100px);
+  
+  transition: 1s;
+  box-shadow: inset 0px 0px 10px 10px rgba(0,0,0,0.75), 20px 20px 20px 20px rgba(0,0,0,0.8);
+  -webkit-box-shadow: inset 0px 0px 10px 10px rgba(0,0,0,0.75), 20px 20px 20px 20px rgba(0,0,0,0.8);
+  -moz-box-shadow: inset 0px 0px 10px 10px rgba(0,0,0,0.75), 20px 20px 20px 20px rgba(0,0,0,0.8);
+  border-style: none;
+}
+
+.menu-button:active{
+  transform: translateZ(0px);
+  box-shadow: inset 0px 0px 10px 10px rgba(0,0,0,0.75);
+  -webkit-box-shadow: inset 0px 0px 10px 10px rgba(0,0,0,0.75);
+  -moz-box-shadow: inset 0px 0px 10px 10px rgba(0,0,0,0.75);
+  
+}
+
+.slide-card{
+  height: 100vh;
+  border-style: solid;
+  border-color: transparent;
+  margin-top:1em;
+  
+}
+.beefs-dream{
+  background-image: url('imgbin_wood-flooring-plank-png.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  box-shadow: inset 0px 0px 10px 10px rgba(0,0,0,0.75), -1px -1px 30px 38px rgba(0,0,0,0.75);
+  -webkit-box-shadow: inset 0px 0px 21px 25px rgba(0,0,0,0.75), -1px -1px 30px 38px rgba(0,0,0,0.75);
+  -moz-box-shadow: inset 0px 0px 21px 25px rgba(0,0,0,0.75), -1px -1px 30px 38px rgba(0,0,0,0.75);
+  
+  transform-style: preserve-3d;
+  transform: perspective(1000px);
+
+  width: 72vw;
+  height: 600px;
+  margin-left: 15vw;
+  margin-top: 220px;
+  
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 3em;
+  
+}
+.beefs-dream-container{
+  transform: translateZ(10px);
+  color: wheat;
+  height: 80%;
+  width: 35em;
+  
+}
+.beefs-dream-title{
+  
+  font-family: 'Tangerine', cursive;
+  text-shadow: 10px 10px 10px rgba(0, 0, 0, 1);
+  font-size: 10em;
+  text-align: center;
+  
+}
+.beefs-dream-description{
+  font-family: 'Lato', cursive;
+  text-shadow: 10px 10px 5px rgba(0, 0, 0, 1);
+  font-size: 2em;
+}
+.beef-plate{
+  position: relative;
+  transform: translateZ(50px);
+  
+  box-shadow: 30px 30px 30px 38px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 30px 30px 30px 38px rgba(0,0,0,0.75);
+  -moz-box-shadow: 30px 30px 30px 38px rgba(0,0,0,0.75);
+  border-radius: 20vw;
+  
+}
+.salad-plate{
+  transform: translateZ(50px);
+  box-shadow: 30px 30px 30px 38px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 30px 30px 30px 38px rgba(0,0,0,0.75);
+  -moz-box-shadow: 30px 30px 30px 38px rgba(0,0,0,0.75);
+  border-radius: 20vw;
+  height: 500px;
+  width: 500px;
+  background-image: url('kindpng_7890605.png');
+  background-size: 565px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.salmon-plate{
+  transform: translateZ(50px);
+  box-shadow: 30px 30px 30px 38px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 30px 30px 30px 38px rgba(0,0,0,0.75);
+  -moz-box-shadow: 30px 30px 30px 38px rgba(0,0,0,0.75);
+  border-radius: 20vw;
+  height: 500px;
+  width: 500px;
+  background-image: url('kindpng_6542627.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}

@@ -1,0 +1,485 @@
+body{
+  overflow-x: hidden;
+    margin: 0;
+    background-color: #24282f;
+    background-image: url('wallpaperbetter.com_7680x4320.jpg');
+    background-size: contain;
+    
+  }
+  .header {
+    font-family: 'Lato', sans-serif;
+    background-color: rgba(20, 20, 20, 0.75);
+    position: relative;
+    z-index: 1;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    height: 5em;
+    transition: top 0.8s;
+    -moz-transition: top 0.8s;
+    /* Firefox 4 */
+    -webkit-transition: top 0.8s;
+    /* Safari and Chrome */
+    -o-transition: top 0.8s;
+    -webkit-box-shadow: 0px 17px 26px 26px rgba(20,20,20,0.75);
+    -moz-box-shadow: 0px 17px 26px 26px rgba(20,20,20,0.75);
+    box-shadow: 0px 17px 26px 26px rgba(20,20,20,0.75)
+  }
+  
+  .logoImage {
+    height: 100%;
+    margin: auto;
+    filter: invert(50%) sepia(100%) hue-rotate(16deg) brightness(118%) contrast(119%);
+    cursor: pointer;
+  
+  }
+  
+  .navbar {
+    margin: auto;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    width: 70vw;
+    height: 100%;
+    justify-content: flex-end;
+    gap:4vw;
+    padding: 0;
+  
+  }
+  
+  .navbarItem {
+    list-style-type: none;
+    cursor: pointer;
+    border-radius: 10vw;
+    text-align: center;
+    color: white;
+    transition: 0.2s;
+  }
+  
+  .navbarItem p {
+    font-size: x-large;
+    font-weight: 500;
+    top: 100%;
+    left: 100%;
+  }
+  
+  .navbarItem:hover {
+    color: yellow;
+    
+    transition: 0.2s;
+    text-shadow: 0 0 25px rgba(255, 255, 0, 1);
+  }
+
+  .about-us-panel{
+    background-image: url("aboutUs.jpg");
+    height: 90vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .about-us-text{
+    margin-left: 50px;
+    height: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 35vw;
+  }
+  .about-us-title{
+    margin-bottom: 35px;
+    font-weight: 100;
+    font-size: 105px;
+    font-family: 'Raleway', sans-serif;
+    color: #e5c38e;
+    text-shadow: 0 0 10px rgba(255, 255, 0, 1);
+  }
+  .about-us-subtitle{
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    color: #e5c38e;
+    text-shadow: 0 0 10px rgba(255, 255, 0, 1);
+  }
+
+
+
+  .our-story-panel{
+    height: 70vh;
+    width: 70vw;
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 50px !important;
+    margin: auto;
+    background-color: #202020;
+
+  }
+  .our-story-text{
+    font-family: 'Raleway', sans-serif;
+
+    flex: 1;
+    text-align: center;
+    color: wheat;
+    padding-top: 10vh;
+    border-color: wheat;
+    border-style: double;
+  }
+
+  .our-story-image{
+   
+    background-image: url("pexels-cottonbro-studio-3338497.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    flex: 1;
+  }
+  .our-story-sur-title{
+    font-weight: 400;
+    font-size: 1vw;
+    padding-bottom: 25px;
+
+  }
+  .separator{
+    background-image: url("separator.svg");
+    height: 3vh;
+    width: 200px;
+    background-repeat: no-repeat;
+    margin: auto;
+  }
+  .our-story-title{
+    
+    
+    font-weight: 100;
+    font-size: 3vw;
+    
+  }
+  .our-story-description{
+    
+    
+    font-weight: 200;
+    font-size: 1vw;
+    margin: 5vh;
+    
+  }
+  .our-story-phone{
+    
+    
+    font-weight: 100;
+    font-size: 1vw;
+    margin: 5vh;
+    
+  }
+  .our-story-phone-text{
+    
+    
+    font-weight: 100;
+    font-size: 2vw;
+    
+  }
+  .our-story-phone-number{
+    
+    border-radius: 10vw;
+    font-weight: 100;
+    font-size: 2vw;
+    
+  }
+  .special-dish-image{
+    background-image: url("image-1.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    flex: 1;
+    
+  }
+  .view-menu-button{
+    font-family: 'Raleway', sans-serif;
+    border: 10px double wheat;
+    background-color: transparent;
+    color: wheat;
+    margin-top: 10px !important; 
+    padding: 14px 28px;
+    font-size: 20px;
+    margin: auto;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+  .view-menu-button:hover{
+    transition: 0.5s;
+    border: 10px groove white;
+    transform: scale(1.2);
+    color: white;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 1);
+  }
+
+  .numbers-panel{
+    
+    height: 250px;
+    background-color: #131515;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-flow: row wrap;
+  }
+  .numbers-panel-number{
+    color: white;
+    text-align: center;
+    font-size: 4em;
+  }
+  .numbers-panel-text{
+    font-family: 'Raleway', sans-serif;
+    color: wheat;
+    text-align: center;
+    font-size: 1em;
+    font-weight: 600;
+    letter-spacing: 0.3em;
+  }
+  .parallax-panel{
+    height: 800px;
+    background-image: url("image-7.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
+  .slick-slider{
+    padding-top: 250px;
+    display: block;
+    margin: 0 -27px;
+  }
+
+  .slide{
+    border-radius: 50px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin: 0 27px;
+    padding-left: 40px;
+    padding-right: 40px;
+    color: wheat;
+    text-align: left;
+    background-color: #202020;
+  }
+  .star{
+    font-size: 1.3em;
+    color: rgb(155, 155, 0);
+    padding-bottom: 10px;
+  }
+  .client-message{
+    font-size: 1.2em;
+    padding-bottom: 20px;
+  }
+  .client-image{
+    border-radius: 60px;
+    height: 120px;
+    width: 120px;
+    background-color: white;
+  }
+  .client-info{
+    gap: 30px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-flow: row nowrap;
+  }
+
+  .services-panel{
+    padding: 100px;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    color: wheat;
+    height: 100vh;
+    width: 70vw;
+    margin: auto;
+  }
+  .lemon{
+    margin-top: -10%;
+    margin-left: -10%;
+    background-image: url("spice.png");
+    position: absolute;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 400px;
+  }
+  .parsley{
+    margin-left: 62%;
+    background-image: url("parsley.png");
+    position: absolute;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 400px;
+    transform: rotate(40deg);
+  }
+  .services-surtitle{
+    font-size: 1em;
+    font-weight: 600;
+    letter-spacing: 0.3em;
+    padding-bottom: 50px;
+  }
+  .services-title{
+    padding-top: 50px;
+    font-size: 5em;
+    font-weight: 100;
+    padding-bottom: 50px;
+  }
+  .services-flexbox{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .services-column{
+    flex: 1;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    
+  }
+  .services-image{
+    background-image: url('kindpng_1105729.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 300px;
+    border-radius: 100%;
+    box-shadow: 30px 30px 30px 10px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 30px 30px 30px 10px rgba(0,0,0,0.75);
+  -moz-box-shadow: 30px 30px 30px 10px rgba(0,0,0,0.75);
+  }
+  .service{
+    padding: 20px;
+    border-radius: 500px;
+    background-color: #202020;
+    height: 250px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px
+  }
+  .service-icon{
+    background-image: url('s-icon-1.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    background-color: #101010;
+  }
+  .service-info{
+
+    flex: 2;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    gap: 1em;
+  }
+  .service-title{
+    font-size: 2em;
+  }
+  .footer{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8),
+    rgba(0, 0, 0, 0.8)),url("pexels-cottonbro-studio-3296542.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+  }
+
+  .footer-surtitle{
+    padding-top: 10%;
+    font-family: 'Tangerine', cursive;
+    font-size: 124px;
+    text-align: center;
+    color: wheat;
+  }
+  .footer-title{
+    font-family: 'Lato', sans-serif;
+    letter-spacing: -15px;
+    font-weight: 500;
+    font-size: 124px;
+    text-align: center;
+    color: white;
+  }
+  .contact-us-button{
+    margin-top: 10vh;
+    cursor: pointer;
+    border-radius: 5vh;
+    position: relative;
+    width: 25%;
+    height: 10vh !important;
+    font-size: 3em;
+    border: solid;
+    color: rgb(100, 0, 0);
+    border-color: wheat;
+    border-right-color: rgb(100, 0, 0);
+    border-left-color: rgb(100, 0, 0);
+    margin-left: 37.5%;
+    background-color: transparent;
+    transition: .5s;
+    
+  }
+  .contact-us-button:hover{
+    cursor: pointer;
+    color: wheat;
+    transition: .5s;
+    border-color: rgb(100, 0, 0);
+    -webkit-box-shadow: 0px 0px 26px 26px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 26px 26px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 26px 26px rgba(0,0,0,0.75);
+  }
+
+  .social-flex{
+    height: 10vh;
+    margin-top: 30vh;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  .social-icon{
+    height: 50px;
+    width: 50px;
+    background-color: wheat;
+    border-radius: 25px;
+    transition: .5s;
+  }
+  .social-icon:hover{
+    transform: scale(1.5);
+    transition: .5s;
+    background-color: white;
+  }
+  .facebook{
+    
+    background-image: url('f.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .twitter{
+    background-image: url('twitter.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .linkedin{
+    background-image: url('linkedin.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  

@@ -1,0 +1,131 @@
+body{
+    font-family: 'Italiana', serif;
+    height: 100vh;
+    margin: 0;
+    background-color: black;
+    background-image: url('wallpaperbetter.com_7680x4320.jpg');
+    background-size: contain;
+    
+  }
+  .header {
+    font-family: 'Lato', sans-serif;
+    background-color: rgba(20, 20, 20, 0.75);
+    position: relative;
+    z-index: 1;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    height: 5em;
+    transition: top 0.8s;
+    -moz-transition: top 0.8s;
+    /* Firefox 4 */
+    -webkit-transition: top 0.8s;
+    /* Safari and Chrome */
+    -o-transition: top 0.8s;
+    -webkit-box-shadow: 0px 17px 26px 26px rgba(20,20,20,0.75);
+    -moz-box-shadow: 0px 17px 26px 26px rgba(20,20,20,0.75);
+    box-shadow: 0px 17px 26px 26px rgba(20,20,20,0.75)
+  }
+  
+  .logoImage {
+    height: 100%;
+    margin: auto;
+    filter: invert(50%) sepia(100%) hue-rotate(16deg) brightness(118%) contrast(119%);
+    cursor: pointer;
+  
+  }
+  
+  .navbar {
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    width: 70vw;
+    height: 100%;
+    justify-content: flex-end;
+    gap:4vw;
+    padding: 0;
+  
+  }
+  
+  .navbarItem {
+    list-style-type: none;
+    cursor: pointer;
+    border-radius: 10vw;
+    text-align: center;
+    color: white;
+    transition: 0.2s;
+  }
+  
+  .navbarItem p {
+    font-size: x-large;
+    font-weight: 500;
+    top: 100%;
+    left: 100%;
+  }
+  
+  .navbarItem:hover {
+    color: yellow;
+    
+    transition: 0.2s;
+    text-shadow: 0 0 25px rgba(255, 255, 0, 1);
+  }
+
+  .menu-panel{
+    background: rgba(255, 180, 0, 0.02);
+    box-shadow: inset 0px 0px 20px 20px rgba(255,180,36,0.1), 0px 0px 20px 20px  rgba(0, 0, 0, 1);
+    -webkit-box-shadow: inset 0px 0px 20px 20px rgba(255,180,36,0.1), 0px 0px 20px 20px  rgba(0, 0, 0, 1);
+    -moz-box-shadow: inset 0px 0px 20px 20px rgba(255,180,36,0.1), 0px 0px 20px 20px  rgba(0, 0, 0, 1);
+    border: 9px double rgba(255,180,36,0.5);
+    border-radius: 40px 40px 40px 40px;
+    width: 60%;
+    margin-top: 100px;
+    margin-left: 20%;
+    padding: 50px;
+  }
+  .menu-title{
+    font-family: 'Lato';
+    font-weight: 200;
+    height: 300px;
+    font-size: 10em;
+    color: goldenrod;
+    text-shadow: 0 0 25px rgba(216, 165, 32, 0.5);
+    text-align: center;
+  }
+  .menu-subtitle{
+    font-family: 'Lato';
+    font-weight: 100;
+    font-size: 5em;
+    color: goldenrod;
+    text-shadow: 0 0 25px rgba(216, 165, 32, 0.5);
+    text-align: center;
+  }
+  .sub-list{
+    padding: 100px;
+    font-family: 'Tangerine', cursive;
+    font-weight: 100;
+    font-size: 4em;
+    color: goldenrod;
+    display: flex;
+    flex-flow: nowrap column;
+    justify-content: center;
+  }
+  .menu-item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10vw;
+  }
+  .fish-plate{
+    background-image: url('fish-plate.png');
+    height: 30vw;
+    left: 40vw;
+    width: 30vw;
+    background-size: cover;
+    background-position: center;
+
+    position: absolute;
+  }
+  
